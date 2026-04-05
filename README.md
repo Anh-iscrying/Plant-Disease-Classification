@@ -55,16 +55,16 @@ streamlit run app.py
 ``
 ## 🧠 Chiến lược huấn luyện
 Dự án áp dụng kỹ thuật Transfer Learning kết hợp với Fine-tuning:
-Giai đoạn 1 (Epoch 1-5): Đóng băng (Freeze) lớp Backbone, chỉ huấn luyện lớp Classifier cuối cùng để ổn định mô hình.
-Giai đoạn 2 (Epoch 6-20): Mở băng (Unfreeze) toàn bộ mạng để tinh chỉnh sâu các đặc trưng hình thái vết bệnh, giúp tăng vọt độ chính xác từ 87% lên 99%.
+- Giai đoạn 1 (Epoch 1-5): Đóng băng (Freeze) lớp Backbone, chỉ huấn luyện lớp Classifier cuối cùng để ổn định mô hình.
+- Giai đoạn 2 (Epoch 6-20): Mở băng (Unfreeze) toàn bộ mạng để tinh chỉnh sâu các đặc trưng hình thái vết bệnh, giúp tăng vọt độ chính xác từ 87% lên 99%.
 
 ## 📸 Demo Screenshots
 ![Giao diện App](assets/demo1.png)
 
 ## 🎓 Thành viên thực hiện
-Mai Phương Anh (Advanced Model & Evaluation)
-Tào Thanh Hà (Data Engineer & Baseline Model)
-Giảng viên hướng dẫn: Ts. Đặng Thị Thúy An
+- Mai Phương Anh (Advanced Model & Evaluation)
+- Tào Thanh Hà (Data Engineer & Baseline Model)
+- Giảng viên hướng dẫn: Ts. Đặng Thị Thúy An
 
 ## 📜 Giấy phép
 Dự án được thực hiện cho mục đích học thuật và nghiên cứu trong khuôn khổ học phần "Mạng nơ-ron và Học sâu".
