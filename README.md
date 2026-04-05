@@ -42,16 +42,16 @@ RAM: Tối thiểu 4GB
 Internet (để tải thư viện và pretrained weights ban đầu)
 2. Các bước cài đặt
 
-``bash
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
-``
+```
 
 3. Chạy ứng dụng
-``
+```
 streamlit run app.py
-``
+```
 ## 🧠 Chiến lược huấn luyện
 Dự án áp dụng kỹ thuật Transfer Learning kết hợp với Fine-tuning:
 - Giai đoạn 1 (Epoch 1-5): Đóng băng (Freeze) lớp Backbone, chỉ huấn luyện lớp Classifier cuối cùng để ổn định mô hình.
