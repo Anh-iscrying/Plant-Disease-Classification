@@ -43,8 +43,11 @@ Internet (để tải thư viện và pretrained weights ban đầu)
 2. Các bước cài đặt
 
 ```bash
+# Clone repository này
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+# Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
 ```
 
